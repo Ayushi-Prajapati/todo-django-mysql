@@ -18,10 +18,14 @@ This is a simple Flask app that interacts with a MySQL database. The app allows 
 7. Create database
 	`CREATE DATABASE default_db;`
 8. Create table
- > `  CREATE TABLE messages (
+
+```
+  CREATE TABLE messages (
     id INT AUTO_INCREMENT PRIMARY KEY,
     message TEXT
-);  `
+);
+
+```
 9. Create container for todo-app
 
 
